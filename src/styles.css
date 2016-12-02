@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F5F5F5;
+	height: 100%;
+	min-width: 320px;
+}
+
+
+.topnav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #696969;
+    width: 100%;
+}
+
+.topnav li {
+	float: left;
+}
+
+.topnav li a {
+    display: inline-block;
+    color: #FFFFF0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18.5px;
+}
+
+.topnav li a:hover {
+	background-color: #B0C4DE;
+}
+
+.topnav .icon {
+	background: url(https://pp.vk.me/c407929/g43045109/e_9ac22c58.jpg) no-repeat;
+	height: 32px;
+	width: 18px;
+	padding-bottom: 0px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+
