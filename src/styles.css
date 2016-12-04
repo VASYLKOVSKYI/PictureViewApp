@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #F5F5F5;
+	background-color: #9BE8D1;
 	height: 100%;
 	min-width: 320px;
 }
@@ -21,9 +21,9 @@ body {
 	}
 }
 
-@media screen and (min-width: 1056px) and (max-width: 9999px) {
+@media screen and (min-width: 1000px) {
 	.topnav {
-		padding-left: 13%;
+		padding-left: 9%;
 
 	}
 }
@@ -36,7 +36,7 @@ header {
 .topnav {
     list-style-type: none;
     overflow: hidden;
-    background-color: #696969;
+    background-color: #00704E;
     width: 100%;
     height: 49px;
 }
@@ -56,7 +56,7 @@ header {
 }
 
 .topnav li a:hover {
-	background-color: #DCDCDC;
+	background-color: #00A876;
 }
 
 .topnav .icon {
@@ -78,7 +78,7 @@ header {
 
 footer {
 	overflow: hidden;
-    background-color: #696969;
+    background-color: #00704E;
     width: 100%;
     height: 45px;
     text-align: center;
@@ -90,11 +90,11 @@ footer {
 
 footer a {
 	text-decoration: none;
-    color: #FFFFF0;
+    color: white;
 }
 
 footer a:hover {
-	color: #D3D3D3;
+	color: #56E8BC;
 }
 
 
