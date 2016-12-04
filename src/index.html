@@ -9,13 +9,19 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-	<ul class="topnav" id="myTopnav">
+	<header><ul class="topnav" id="myTopnav">
 		<li><a class="icon" href="/"></a></li>
 		<li><a href="/">Home</a></li>
 		<li><a href="https://www.google.com.ua/" target="_blank">Google</a></li>
-	</ul>
+	</ul></header>
 	<div class="content">
     	<app-root>Loading...</app-root>
+    	<div ng-app="app">
+    		<!-- init gallery app -->
+     		<gallery path      = "'./app/modules/gallery/'"               source    = "'./static/json/images.json'"
+            slideshow = "2"> </gallery>
+    	</div>
 	</div>
+	<footer><a href="https://github.com/VASYLKOVSKYI/PictureViewApp/tree/master/src" target="_blank">GitHub</a></footer>
 </body>
 </html>
